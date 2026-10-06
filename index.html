@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ORBID Report Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=13">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div id="toolbar" class="no-print">
+    <span class="brand">ORBID Report Generator</span>
+    <label class="btn">Pilih file Excel<input id="file-input" type="file" accept=".xlsx,.xls" hidden></label>
+    <button id="btn-template" class="btn">Unduh template Excel</button>
+    <button id="btn-print" class="btn primary">Cetak / Simpan PDF</button>
+    <span id="status">Menampilkan data contoh — drop file Excel ke mana saja untuk mengganti data</span>
+  </div>
+  <div id="report"></div>
+  <script src="app.js?v=16"></script>
+</body>
+</html>

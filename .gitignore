@@ -1,0 +1,7 @@
+# data asesmen asli & hasil generate — jangan pernah di-commit (repo publik)
+*.xlsx
+*.pdf
+team_config.py
+
+.claude/
+.DS_Store
